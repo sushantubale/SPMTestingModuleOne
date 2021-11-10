@@ -1,3 +1,7 @@
-struct SPMTestingModuleOne {
-    var text = "Hello, World!"
+public class SPMTestingModuleOne {
+    public  var text = "Hello, SPMTestingModuleOne!"
+    
+    public  func sayHello() {
+        print("\(text)")
+    }
 }
